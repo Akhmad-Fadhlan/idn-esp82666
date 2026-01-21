@@ -1,19 +1,17 @@
-{
-  "name": "idn-esp8266",
-  "version": "1.2.9",
-  "description": "IDN Library for ESP8266 with Firebase support",
+{    
+  "name": "ESP8266-IDN Library",
+  "version": "1.0.8",
+  "description": "IDN Library for ESP8266", 
   "license": "MIT",
   "dependencies": {
     "core": "*"
   },
   "files": [
-    "shims.d.ts",
     "main.ts",
     "http.ts",
-    "firebase.ts",
-    "README.md",
-    "icon.png"
+    "firebase.ts"
   ],
+  "icon": "icon.png",
   "public": true,
   "supportedTargets": [
     "microbit"
